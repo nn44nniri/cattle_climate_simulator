@@ -369,7 +369,7 @@ Important caution:
 - the model is well mixed and does not resolve detailed stratification or local obstacles such as individual cows as airflow obstructions
 - the code preserves many formula functions from the official references even when the executable uses only a simplified subset directly.
 
-** vital_params_0_300m with dampers off duration-minutes 300 outside-temp-c 35 fan-driver 42% :
+* vital_params_0_300m with dampers off duration-minutes 300 outside-temp-c 35 fan-driver 42% :
 ![vital_params_0_300m](build/vital_params_0_300m.svg)
 
 ## Limitations
