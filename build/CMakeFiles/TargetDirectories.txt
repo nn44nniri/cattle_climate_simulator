@@ -1,0 +1,4 @@
+/home/shabgard/Desktop/ClimateModel/IDA-ICEـdairy-barnـindoorـclimateـmodel/code/cattle_climate_simulator/build/CMakeFiles/cattle_climate.dir
+/home/shabgard/Desktop/ClimateModel/IDA-ICEـdairy-barnـindoorـclimateـmodel/code/cattle_climate_simulator/build/CMakeFiles/cattle_climate_example.dir
+/home/shabgard/Desktop/ClimateModel/IDA-ICEـdairy-barnـindoorـclimateـmodel/code/cattle_climate_simulator/build/CMakeFiles/edit_cache.dir
+/home/shabgard/Desktop/ClimateModel/IDA-ICEـdairy-barnـindoorـclimateـmodel/code/cattle_climate_simulator/build/CMakeFiles/rebuild_cache.dir

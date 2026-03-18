@@ -1,0 +1,69 @@
+{
+  "room": {
+    "length_m": 20.0,
+    "width_m": 12.0,
+    "height_m": 4.0,
+    "wall_u_value_w_m2k": 0.6,
+    "roof_u_value_w_m2k": 0.6,
+    "floor_u_value_w_m2k": 0.3,
+    "window_u_value_w_m2k": 2.4,
+    "window_count": 6,
+    "window_area_each_m2": 1.2,
+    "opening_count": 2,
+    "opening_height_m": 0.5,
+    "opening_width_m": 0.5,
+    "leakage_area_m2": 0.02
+  },
+  "climate": {
+    "outside_temp_c": -10.0,
+    "outside_relative_humidity": 0.80,
+    "outside_co2_ppm": 420.0,
+    "atmospheric_pressure_pa": 101325.0,
+    "reference_wind_speed_m_s": 4.0,
+    "outside_wind_direction_deg": 270.0,
+    "reference_height_m": 10.0,
+    "a0_coeff": 1.0,
+    "a_exp": 0.15,
+    "facade_pressure_coefficient": 0.6,
+    "direct_radiation_w_m2": 150.0,
+    "diffuse_radiation_w_m2": 50.0,
+    "ground_reflectance": 0.2,
+    "latitude_deg": 45.0,
+    "longitude_deg": -73.0,
+    "standard_meridian_deg": -75.0,
+    "day_of_year": 80,
+    "clock_time_hours": 12.0,
+    "wall_azimuth_deg": 180.0,
+    "wall_tilt_deg": 90.0,
+    "window_transmitted_solar_coefficient": 0.35,
+    "glazing_solar_coefficient": 0.50,
+    "shading_coefficient": 0.95,
+    "sky_emissivity": 0.90
+  },
+  "internal_loads": {
+    "base_sensible_gains_w": 4000.0,
+    "base_moisture_generation_kg_s": 0.00006,
+    "base_co2_generation_kg_s": 0.0
+  },
+  "actuator_settings": {
+    "fan_max_flow_m3_s": 0.25,
+    "damper_discharge_coefficient": 0.62,
+    "heater_max_power_w": 35000.0,
+    "heater_cop": 1.0,
+    "damper_max_electrical_power_w": 50.0,
+    "fan_max_electrical_power_w": 750.0,
+    "heater_max_electrical_power_w": 35000.0,
+    "damper_max_resource_rate_per_hour": 0.05,
+    "fan_max_resource_rate_per_hour": 0.75,
+    "heater_max_resource_rate_per_hour": 35.0,
+    "damper_resource_unit": "kWh",
+    "fan_resource_unit": "kWh",
+    "heater_resource_unit": "kWh"
+  },
+  "simulation": {
+    "initial_indoor_temp_c": 15.0,
+    "initial_indoor_relative_humidity": 0.60,
+    "timestep_seconds": 60.0,
+    "n_steps": 10
+  }
+}

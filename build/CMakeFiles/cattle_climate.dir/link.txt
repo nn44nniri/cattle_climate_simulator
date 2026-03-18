@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcattle_climate.a CMakeFiles/cattle_climate.dir/src/formulas.cpp.o CMakeFiles/cattle_climate.dir/src/settings.cpp.o CMakeFiles/cattle_climate.dir/src/simulator.cpp.o
+/usr/bin/ranlib libcattle_climate.a
